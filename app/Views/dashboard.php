@@ -20,7 +20,7 @@
 <div class="container mt-5">
 
     <div class="text-center mb-4">
-        <h1>Employee Dashboard</h1>
+        <h1>Employee Dashboard - CI/CD Validation Success</h1>
         <p class="text-muted">Manage employees and monitor workforce statistics</p>
     </div>
 
