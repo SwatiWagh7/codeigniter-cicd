@@ -1,6 +1,10 @@
 #!/bin/bash
 
-chown -R www-data:www-data /var/www/codeigniter-app/writable
-chmod -R 775 /var/www/codeigniter-app/writable
+cd /var/www/codeigniter-app
+
+composer install --no-dev --optimize-autoloader
+
+chown -R www-data:www-data writable
+chmod -R 775 writable
 
 systemctl restart apache2
